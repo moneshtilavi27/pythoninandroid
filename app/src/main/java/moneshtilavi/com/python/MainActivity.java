@@ -53,10 +53,10 @@ public class MainActivity<as> extends AppCompatActivity {
 //        }
         Python py = Python.getInstance();
         pyobj = py.getModule("myscript");
-//        PyObject obj = pyobj.callAttr("main",myDirectory,image);
+        PyObject obj = pyobj.callAttr("main",image,myDirectory);
         tv = (TextView)findViewById(R.id.tv);
 //        tv.setText(obj.toString());
-        muzzleMatch();
+//        muzzleMatch();
     }
 
     private String getStringImage(Bitmap bitmap) {

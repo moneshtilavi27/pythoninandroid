@@ -23,7 +23,7 @@ public class MainActivity2 extends AppCompatActivity {
         }
 
 //        Python py = Python.getInstance();
-//        PyObject pyobj = py.getModule("");
+//        PyObject pyobj = py.getModule("myscript");
 //        PyObject obj = pyobj.callAttr("main");
         tv1.setText("Monesh");
         // tv.setText(obj.toString());

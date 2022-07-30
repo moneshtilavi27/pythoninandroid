@@ -18,7 +18,11 @@ android {
             abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
         }
         python {
-            buildPython "C:/Users/MONESH/AppData/Local/Microsoft/WindowsApps/python.exe"
+            pip {
+                install "numpy"
+                install "opencv-contrib-python==3.4.2.16"
+                install "tensorflow"
+            }
         }
         sourceSets {
             main {
